@@ -2564,13 +2564,14 @@
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #ffffff;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
-			display: inline-block;
+			display: inline-flex;
 			font-size: 2.25em;
 			height: 2.35em;
+                        align-items: center;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
