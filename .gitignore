@@ -1,3 +1,4 @@
 .sass-cache
 *.map
 .netlify
+assets/css/main.css
