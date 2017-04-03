@@ -1438,3 +1438,16 @@
 			}
 		}
 	}
+
+	.awards {
+		.feature.left {
+			img {
+				right: -14%;
+			}
+			@include breakpoint(mobilep) {
+				img {
+					right: -60%;
+				}
+			}
+		}
+	}
