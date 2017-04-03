@@ -1410,16 +1410,31 @@
 		}
 		.teammember {
 			text-align: center;
-			margin-right: 50px;
+			margin-right: 100px;
 		}
 		.teammember:last-child {
 			margin-right: 0;
 		}
 
-		@include breakpoint(narrow) {
+		@include breakpoint(mobile) {
+			.avatar {
+				width: 220px;
+				height: 220px;
+			}
 			flex-flow: row wrap;
 			.teammember {
-				margin-right: 0;
+				margin-right: 15px;
+			}
+		}
+		@include breakpoint(mobilep) {
+			flex-flow: row wrap;
+			.avatar {
+				width: 150px;
+				height: 150px;
+			}
+			.teammember {
+				margin-left: 0px;
+				margin-right: 0px;
 			}
 		}
 	}
