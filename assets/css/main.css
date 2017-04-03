@@ -1935,11 +1935,11 @@ input[type="button"],
     background: #ffffff;
     color: #544d55; }
   #header .logo {
-    background: #4eb980;
+    background: white;
     border-radius: 100%;
     color: #ffffff;
     cursor: default;
-    display: inline-block;
+    display: inline-flex;
     font-size: 2.25em;
     height: 2.35em;
     line-height: 2.35em;
