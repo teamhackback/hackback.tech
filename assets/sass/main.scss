@@ -1381,15 +1381,31 @@
 	}
 
 	.coreteam {
-		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
 		img {
 			max-width: 100%;
-			max-height: 200px;
+			max-height: 250px;
 		}
 		.teammember-name {
 			font-weight: bold;
 		}
 		.teamjob {
 			font-style: italic;
+		}
+		.teammember {
+			text-align: center;
+			margin-right: 50px;
+		}
+		.teammember:last-child {
+			margin-right: 0;
+		}
+
+		@include breakpoint(narrow) {
+			flex-flow: row wrap;
+			.teammember {
+				margin-right: 0;
+			}
 		}
 	}
