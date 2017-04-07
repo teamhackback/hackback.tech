@@ -1,4 +1,5 @@
+_site
 .sass-cache
-*.map
-.netlify
-assets/css/main.css
+.jekyll-metadata
+vendor/
+_site/
