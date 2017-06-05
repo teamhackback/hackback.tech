@@ -1370,6 +1370,7 @@
 			}
 
 		/* Header */
+                        left: -142px;
 
 			#header {
 				padding-left: 2em;
@@ -1442,14 +1443,33 @@
 	}
 
 	.awards {
+		.feature.right {
+                        .lorien {
+                                left: -142px;
+                        }
+			@include breakpoint(mobilep) {
+                                .lorien {
+                                        left: -63px;
+                                }
+			}
+		}
 		.feature.left {
 			img {
 				right: -14%;
 			}
+                        .bloomout {
+                                right: -10%;
+                                width: auto;
+                                height: 100%;
+                        }
 			@include breakpoint(mobilep) {
 				img {
 					right: -60%;
 				}
+                                .bloomout {
+                                        right: 0;
+                                }
 			}
 		}
+                left: -63px;
 	}
